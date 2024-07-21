@@ -12,7 +12,7 @@ public class Classes {
     public static void main(String[] args) {
         int num1 = 4;
         int num2 = 5;
-         Calculator c = new Calculator();
+        Calculator c = new Calculator();
 
         int res = c.add(num1, num2);
         System.out.println(res);
