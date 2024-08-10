@@ -8,10 +8,10 @@ class Human {
         name = "John";
     }
     
-    public Human(int a, String n) {
+    public Human(int age, String name) {
         System.out.println("in parameterized constructor");
-        age = a;
-        name = n;
+        this.age = age;
+        this.name = name;
     }
 
     public void setAge(int a) {
@@ -29,7 +29,7 @@ class Human {
     }
 }
 
-public class OOPsEncap {
+public class Encapsulation {
     public static void main(String[] args) {
 
         Human obj = new Human(); 
