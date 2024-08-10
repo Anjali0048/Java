@@ -40,3 +40,13 @@ throw new Exception();
 throw an exception and catch(){} will catch it
 
 throws Exception -> throws exception to the calling function where try catch block is defined
+
+BufferedReader bf = new BufferedReader(null)
+
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+
+finally block is used to close the connections or free up space
+
+obj.getPriority() -> 1 to 10 threads priority 
+                  -> by default = 5
