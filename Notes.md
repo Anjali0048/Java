@@ -50,3 +50,11 @@ finally block is used to close the connections or free up space
 
 obj.getPriority() -> 1 to 10 threads priority 
                   -> by default = 5
+
+t1.join() -> main will wait for thread t1 to complete
+
+synchronized -> this makes sure that only one thread is working on a function
+
+collection API -> concept
+collection -> interface
+collections -> class
