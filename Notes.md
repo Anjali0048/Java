@@ -26,3 +26,13 @@ so the derived class cannot override that function
 
 every method in interface is public abstract by default
  
+types of interfaces 
+-> Normal
+-> Functional/ SAM -> Single abstract method
+-> Marker interface -> no method is declared in it
+
+Exceptions
+-> Compile-time error
+-> Runtime error
+-> Logical error
+
