@@ -36,3 +36,7 @@ Exceptions
 -> Runtime error
 -> Logical error
 
+throw new Exception();
+throw an exception and catch(){} will catch it
+
+throws Exception -> throws exception to the calling function where try catch block is defined
