@@ -58,3 +58,13 @@ synchronized -> this makes sure that only one thread is working on a function
 collection API -> concept
 collection -> interface
 collections -> class
+
+Set -> not sorted, random 
+TreeSet -> sorted
+
+HashTable -> synchronized 
+HashMap -> not synchronized
+but both works similar
+
+Comparable -> given to class to compare things
+Comparator -> to compare two things
